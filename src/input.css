@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.headline{
+    @apply text-center max-w-2xl sm:px-10 mx-auto text-xl lg:text-2xl xl:text-3xl font-Lexend-Deca text-gray-900 leading-snug;
+}
+.subtext{
+    @apply lg:max-w-xl mx-auto pt-1 text-sm lg:text-[16px] font-Lexend-Deca text-secondary max-w-xs;
+}
+.btn{
+    @apply bg-custom-gradient text-white px-6 py-3 rounded-full font-Lexend-Deca shadow-md hover:opacity-90 transition;
+}
+.btn_2{
+    @apply  bg-white text-gray-900 px-6 py-3 rounded-full border border-gray-300 shadow hover:bg-gray-100 transition font-Lexend-Deca;
+}
+.nav_link{
+    @apply hover:text-[#fff] font-bold md:font-[400] text-[16px];
+}
+.i_style{
+    @apply  text-sm lg:text-xl xl:text-2xl text-[#E8396A];
+}
+.swiper-pagination-bullet{
+    @apply bg-green-500 w-3 h-3;
+}
+
+.footerLi{
+    @apply text-sm font-normal text-[#1A194F80];
+}
